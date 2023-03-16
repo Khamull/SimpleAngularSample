@@ -1,2 +1,4 @@
 C:\Users\charles.path\source\repos\SimpleAngularSample\SimpleAngularSample\SimpleAngularSample\obj\Debug\SimpleAngularSample.esproj.SuggestedBindingRedirects.cache
 C:\Users\charles.path\source\repos\SimpleAngularSample\SimpleAngularSample\SimpleAngularSample\obj\Debug\SimpleAngularSample.esproj.CoreCompileInputs.cache
+C:\Users\charles.path\source\repos\SimpleAngularSample\SimpleAngularSample\obj\Debug\SimpleAngularSample.esproj.SuggestedBindingRedirects.cache
+C:\Users\charles.path\source\repos\SimpleAngularSample\SimpleAngularSample\obj\Debug\SimpleAngularSample.esproj.CoreCompileInputs.cache
