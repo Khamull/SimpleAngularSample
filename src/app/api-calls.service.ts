@@ -13,17 +13,17 @@ export class DataService {
   constructor(private http: HttpClient) { }
 
   // Create
-  createData(data: any): Observable<any> {
-    return this.http.post<any>(this.baseUrl + 'data', data);
+  createData(endpoint: string, data: any): Observable<any> {
+    return this.http.post<any>(this.baseUrl + endpoint, data);
   }
 
   // Read
   getData(id: number): Observable<any> {
-    return this.http.get<any>(this.baseUrl + 'data/' + id);
+    return this.http.get<any>(this.baseUrl + '/' + id);
   }
 
-  getAllData(): Observable<any[]> {
-    return this.http.get<any[]>(this.baseUrl + 'data');
+  getAllData(endpoint: string): Observable<any[]> {
+    return this.http.get<any[]>(this.baseUrl + endpoint);
   }
 
   // Update
